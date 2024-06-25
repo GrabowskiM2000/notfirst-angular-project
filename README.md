@@ -2,26 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
-## Development server
+## Funcionalyty
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Project is about simple task manager, i created it in order to practice basic angular concepts and to learn few new ones. Some of Angular concepts used in the project:
 
-## Code scaffolding
+- signals
+- services
+- data types
+- ng if and for
+- ng-content
+- event listeners
+- saving data in local storage in browser
+- inputs and outputs - both in "new" and "old" methods
+- basic form managment
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Tasks are different for each user and after clicking complete they disappear. After clicking add task we can add new task for specyfic user. Data is saved in localstorage in browser so after refreshing tasks won't disappear. 
