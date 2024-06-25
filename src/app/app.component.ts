@@ -9,4 +9,13 @@ import { DUMMY_USERS } from './dummy-users';
 export class AppComponent {
   title = 'not-first-angular-project';
   users = DUMMY_USERS;
+  selectedUserId?: string;
+
+  get SelectedUser() {
+    return this.users.find((user) => user.id === this.selectedUserId)!;
+  }
+
+  onSelectUser(id: string) {
+    this.selectedUserId = id;
+  }
 }
